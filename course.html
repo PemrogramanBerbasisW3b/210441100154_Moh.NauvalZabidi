@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Desaign - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="htpps://fonts/gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Courses</h1>
+</section>
+
+<!------- courses ------>
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsa delectus dolorem porro eaque exercitationem vero mollitia explicabo labore dolores ipsam nemo in facere dignissimos fuga quisquam architecto! Reprehenderit, ex.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsa delectus dolorem porro eaque exercitationem vero mollitia explicabo labore dolores ipsam nemo in facere dignissimos fuga quisquam architecto! Reprehenderit, ex.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsa delectus dolorem porro eaque exercitationem vero mollitia explicabo labore dolores ipsam nemo in facere dignissimos fuga quisquam architecto! Reprehenderit, ex.</p>
+        </div>
+    </div>
+</section>
+
+<!------- Fasilities ------>
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, modi tempore culpa ex, maxime dicta reprehenderit delectus neque distinctio dolores illum? Ullam adipisci aut laudantium, aperiam commodi repudiandae. Dolorem, totam.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum earum ratione quo, recusandae architecto consectetur saepe qui esse adipisci commodi modi soluta labore quasi, assumenda, numquam molestiae voluptate maxime tempore.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, provident iste perspiciatis voluptatibus nostrum recusandae. Rem consequatur deleniti quos et quis dolor libero itaque, ab commodi eaque expedita! Nostrum, commodi.</p>
+        </div>
+    </div>
+</section>
+<!------- Footer ------>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus nobis reiciendis, ut dolor cupiditate, consequuntur <br> voluptatem commodi libero at neque quia, alias ipsa adipisci perferendis autem? Deleniti quia illo ipsum!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> 21-154 Nauval Zabidi</p>
+</section>
+
+
+<!------- JavaScript for toogle Menu ------>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
